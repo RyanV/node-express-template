@@ -1,0 +1,10 @@
+development: &DEVELOPMENT
+  database: {{app_name}}_dev
+  user: postgres
+  port: 5432
+  password:
+  host: localhost
+
+test: &TEST
+  database: {{app_name}}_test
+  <<: *DEVELOPMENT

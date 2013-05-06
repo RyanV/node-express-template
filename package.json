@@ -1,0 +1,26 @@
+{
+  "name": "node-express-template",
+  "version": "0.0.0",
+  "description": "nodejs express application bootstrpap to quickly get up and running with a new node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "optimist": "*",
+    "underscore": "*",
+    "rimraf":"*",
+    "mustache":"*"
+  },
+  "devDependencies": {
+    "jasmine-node": "*",
+    "jasmine-node-exec":"*",
+    "yaml-node": "git://github.com/RyanV/yaml-node.git#master"
+  },
+  "bin": {
+    "express_template": "bin/node-express-template"
+  }
+}
